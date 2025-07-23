@@ -1,0 +1,438 @@
+body{
+    background-color: blueviolet;
+    overflow-x: hidden;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+a.playButton {
+  display: inline-block;     
+  padding: 12px 24px;        
+  background-color: chartreuse; 
+  color: black;              
+  text-decoration: none;     
+  font-weight: bolder;  
+  font-size: 25px;       
+  border-radius: 30px;       
+  text-align: center;        
+  line-height: 1.2;          
+}
+
+
+
+.playButton:hover{
+    background-color: black;
+    color: chartreuse;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.mylogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.heading{
+    margin-bottom: 0px;
+    color: chartreuse;
+}
+
+.heading:hover{
+    color: black;
+}
+
+.logoimg{
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+
+.allcards{
+    display: flex;
+    justify-content: center;
+}
+
+.csk{
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+    margin: 0px 20px;
+    border-radius: 15px;
+    background-color: yellow;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #676910;
+    box-shadow: 0 0 15px #fff700, 0 0 15px #fef611;
+}
+
+.mi{
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+    margin: 0px 20px;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #86c5ff;
+    box-shadow: 0 0 15px #0099ff, 0 0 15px #0099ff;
+}
+
+.kkr{
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+    margin: 0px 20px;
+    border-radius: 15px;
+    background-color: rgb(192, 5, 192);
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #ee05ff;
+    box-shadow: 0 0 15px #bf0ebf, 0 0 15px #bf0ebf;
+}
+
+.rcb{
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+    margin: 0px 20px;
+    border-radius: 15px;
+    background-color: rgb(231, 45, 45);
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #f46a6a;
+    box-shadow: 0 0 15px #ff4800, 0 0 15px #ff4800;
+}
+
+.srh{
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+    margin: 0px 20px;
+    border-radius: 15px;
+    background-color: rgb(238, 111, 20);
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #ffab03;
+    box-shadow: 0 0 15px #ffaa00, 0 0 15px #ffaa00;
+}
+
+.csk img{
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.mi img{
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.kkr img{
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.rcb img{
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.srh img{
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.csk:hover{
+    box-shadow: 0 0 25px #fff700, 0 0 25px #fff700;
+}
+.mi:hover{
+    box-shadow: 0 0 25px #16a2ff, 0 0 25px #16a2ff;
+}
+.kkr:hover{
+    box-shadow: 0 0 25px #ff27ff, 0 0 25px #ff27ff;
+}
+.rcb:hover{
+    box-shadow: 0 0 25px #fd5c1d, 0 0 25px #fd5c1d;
+}
+.srh:hover{
+    box-shadow: 0 0 25px #fbae15, 0 0 25px #fbae15;
+}
+.sut:hover{
+    color: #000000;
+}
+
+.selectbtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 4px 0px;
+    border-radius: 5px;
+    background-color: rgba(240, 255, 255, 0.404);
+}
+
+.selectbtn:hover{
+    background-color: rgba(255, 255, 255, 0.852);
+}
+
+.two{
+    height: 60px;
+    width: 60px;
+    border: 3.5px solid black;
+    background-color: chartreuse;
+    color: black;
+    font-size: large;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+.five{
+    height: 60px;
+    width: 60px;
+    border: 3.5px solid black;
+    background-color: chartreuse;
+    color: black;
+    font-size: large;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+.ten{
+    height: 60px;
+    width: 60px;
+    border: 3.5px solid black;
+    background-color: chartreuse;
+    color: black;
+    font-size: large;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+.two:hover{
+    background-color: black;
+    color: chartreuse;
+    border: 3.5px solid chartreuse;
+}
+.five:hover{
+    background-color: black;
+    color: chartreuse;
+    border: 3.5px solid chartreuse;
+}
+.ten:hover{
+    background-color: black;
+    color: chartreuse;
+    border: 3.5px solid chartreuse;
+}
+
+.bat{
+    height: 60px;
+    width: 100px;
+    border: 3.5px solid black;
+    background-color: chartreuse;
+    color: black;
+    font-size: large;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 36%;
+    align-items: center;
+    margin-inline-start: 25%;
+    margin-top: 0;
+}
+
+.bat:hover{
+    background-color: black;
+    color: chartreuse;
+    border: 3.5px solid chartreuse;
+}
+
+.score{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 0;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 500px rgb(255, 0, 183), 0 0 400px rgb(255, 0, 183);
+    background-color: rgba(255, 0, 183, 0.364);
+}
+
+.score:hover{
+    box-shadow: 0 0 200px rgb(255, 0, 183), 0 0 200px rgb(255, 0, 183);
+    background-color: rgba(255, 0, 183, 0.21);
+}
+
+.matchInfo{
+    height: 30px;
+    width: 130px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0;
+    color: chartreuse;
+    text-shadow: 2px 2px 1px black;
+}
+.scoreInfo{
+    height: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0;
+    color: chartreuse;
+    text-shadow: 2px 2px 1px black;
+}
+
+.all .details{
+    display: inline-block;
+    justify-content: right;
+    align-items: flex-end;
+    margin-left: 80%;
+    
+    
+}
+
+.userInfo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+.wholeDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamBat{
+    margin-left: 10px;
+    margin-right: 5px;
+    color: chartreuse;
+    text-shadow: 2px 2px 1px black;
+}
+.runsScored{
+    margin-left: 10px;
+    margin-right: 50px;
+    color: black;
+    text-shadow: 2px 2px 1px chartreuse;
+}
+.wicketsLeft{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    text-shadow: 2px 2px 1px chartreuse;
+}
+
+@media (max-width: 768px) {
+  .allcards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .csk, .mi, .kkr, .rcb, .srh {
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  .mylogo img.logoimg {
+    width: 90%;
+    height: auto;
+  }
+
+  .all .details {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .wholeDetail,
+  .userInfo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 80px;
+  }
+
+  .teamBat,
+  .runsScored,
+  .wicketsLeft {
+    margin: 5px 0;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0rem;
+    text-size-adjust: 70%;
+  }
+
+  .runsScored{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .score {
+    width: 150px;
+    height: 150px;
+  }
+
+  .target{
+    color: #fef611;
+    text-size-adjust: 80%;
+  }
+
+  .logoimg{
+    margin-top: 15px;
+  }
+
+  .target,.overs{
+    margin-left: 20px;
+  }
+
+  .bat {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto 0;
+  }
+}
+
+#musicBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: black;
+    color: chartreuse;
+    border: none;
+    padding: 10px 15px;
+    font-size: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#musicBtn:hover {
+    background: chartreuse;
+    color: black;
+}
+
+    
+
+
+
+
